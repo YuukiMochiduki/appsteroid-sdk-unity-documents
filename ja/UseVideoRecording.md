@@ -30,7 +30,7 @@ Unityでビルド後のXcodeプロジェクトにて、`GLESHelper. mm` ファ�
 
     [NSNumber numberWithBool:TRUE], kEAGLDrawablePropertyRetainedBacking,
 
-### Unity 5.1.* の場合
+### Unity 5.2 以降の場合
 Unityでビルド後のXcodeプロジェクトにて、`GLESHelper. mm` ファイルの下記の該当箇所を
 
     if(surface->allowScreenshot && UnityIsCaptureScreenshotRequested())
